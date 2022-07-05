@@ -1,38 +1,121 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* background: linear-gradient(to right, #a8ff78, #78ffd6); */
+  background: #eacda3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eacda3, #d6ae7b);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eacda3, #d6ae7b);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-.App-link {
-  color: #61dafb;
+.timer {
+  width: 100vw;
+  height: 8vh;
+  line-height: 8vh;
+  text-align: center;
+  font-size: 6vh;
+  border: 1px solid black;
+  align-self: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.numb {
+  border-radius: 5px;
+  border: none;
+  height: 8vh;
+  width: 3vw;
+  line-height: 8vh;
+  margin-right: 1vh;
+  outline: none;
+  text-align: center;
+  font-size: 6vh;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
 }
+
+::placeholder {
+  color: black;
+  opacity: 1;
+  font-size: 6vh;
+  font-weight: 200;
+}
+
+.numb:focus::placeholder {
+  color: transparent;
+}
+
+.footer {
+  font-size: 40px;
+  text-align: right;
+  width: 30vw;
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  border: 1px solid black;
+}
+
+.outer {
+  display: inline-block;
+  text-align: left;
+  overflow: hidden;
+}
+
+.timer .outer .inner {
+  position: relative;
+  animation: rotate 8s ease-in-out infinite;
+}
+
+.timer .outer .element {
+  display: block;
+}
+
+.mode {
+  background: none;
+  border-radius: 5px;
+  border: none;
+  height: 8vh;
+  width: 13vw;
+  line-height: 8vh;
+  margin-right: 1vh;
+  outline: none;
+  text-align: center;
+  font-size: 6vh;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* @keyframes rotate {
+
+  10%,
+  15%,
+  100% {
+    transform: translateY(0);
+  }
+
+  25%,
+  36% {
+    transform: translateY(-45px);
+  }
+
+  46%,
+  57% {
+    transform: translateY(-90px);
+  }
+
+  67%,
+  78% {
+    transform: translateY(-135px);
+  }
+
+  88%,
+  99% {
+    transform: translateY(-180px);
+  }
+} */
