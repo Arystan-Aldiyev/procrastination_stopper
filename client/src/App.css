@@ -1,0 +1,137 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  /* background: linear-gradient(to right, #a8ff78, #78ffd6); */
+  background: #eacda3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eacda3, #d6ae7b);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eacda3, #d6ae7b);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.timer {
+  width: 100vw;
+  height: 8vh;
+  line-height: 8vh;
+  text-align: center;
+  font-size: 6vh;
+  align-self: center;
+}
+
+.timer2 {
+  width: 100vw;
+  height: 8vh;
+  line-height: 8vh;
+  text-align: center;
+  font-size: 6vh;
+  align-self: flex-start;
+}
+
+.numb {
+  border-radius: 5px;
+  border: none;
+  height: 8vh;
+  width: 3vw;
+  line-height: 8vh;
+  margin-right: 1vh;
+  outline: none;
+  text-align: center;
+  font-size: 6vh;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  background: none;
+}
+
+.buttonToDo {
+  border-radius: 8px;
+  border: 2px solid #111;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  height: 8vh;
+  width: 8vw;
+  font-size: 2vh;
+  line-height: 2vh;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.buttonToDo:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.buttonToDo:hover:after {
+  transform: translate(0, 0);
+}
+
+.buttonToDo:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.buttonToDo:hover {
+  outline: 0;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+  font-size: 6vh;
+  font-weight: 200;
+}
+
+.numb:focus::placeholder {
+  color: transparent;
+}
+
+.footer {
+  font-size: 40px;
+  text-align: right;
+  width: 30vw;
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+}
+
+
+.mode {
+  background: none;
+  border-radius: 5px;
+  border: none;
+  height: 8vh;
+  width: 13vw;
+  line-height: 8vh;
+  margin-right: 1vh;
+  outline: none;
+  text-align: center;
+  font-size: 6vh;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
