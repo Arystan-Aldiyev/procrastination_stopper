@@ -51,12 +51,19 @@ function App() {
       response => response.json()
     ).then(
       data => {
-        setBackendData(data)
+        setBackendData(data.sort(function (a, b) { return a.time - b.time }))
       }
     )
   }, [])
 
   const [showTasks, toggleShowTasks] = useState(false)
+  const items = []
+  for (let i = 1; i <= value; i++) {
+    items.push(<dt key={i}>{i} min.</dt>)
+    backendData.filter((task) => { return task.time <= value }).map((task) => (
+      items.push(<dd>{task.task}</dd>)
+    ))
+  }
 
   return (
     // <div>
@@ -70,7 +77,7 @@ function App() {
     // </div>
 
     <div className="App">
-      {(typeof backendData === 'undefined' || !showTasks) ? (
+      {(typeof backendData === 'undefined' || !showTasks || value === '') ? (
         <div className='timer'>
           <input className="numb" id="intLimitTextBox" autoFocus type="text" placeholder='__' value={value} onKeyDown={(event) => event.target.style.width = (event.target.value.length + 1.2) + 'ch'} onChange={handleChange} />
           <select id="min/hour" className='mode'>
@@ -80,7 +87,7 @@ function App() {
           <button id="myBtn" className='buttonToDo' onClick={() => { toggleShowTasks(!showTasks) }}>What to do?</button>
         </div>
       ) : (
-        <>
+        <div className='wrapper'>
           <div className='timer2'>
             <input className="numb" id="intLimitTextBox" autoFocus type="text" placeholder='__' value={value} onKeyDown={(event) => event.target.style.width = (event.target.value.length + 1.2) + 'ch'} onChange={handleChange} />
             <select id="min/hour" className='mode'>
@@ -89,14 +96,24 @@ function App() {
             </select>
             <button id="myBtn" className='buttonToDo' onClick={() => { toggleShowTasks(!showTasks) }}>Main page</button>
           </div>
-        </>
+          <dl className='itemList'>
+            {/* <ul>
+              {backendData.filter((task) => { return task.time <= value }).map((task) => (
+                <li key={task.key}><div className='tasklistcontent'>{task.task}</div><div className='tasklistcontent'>{task.time}m</div></li>
+              ))}
+            </ul> */}
+            {items}
+          </dl>
+
+        </div>
         // backendData.map((task) => (
         //   <p key={task.key}>{task.task}</p>
         // ))
-      )}
+      )
+      }
 
       <div className='footer'> Time saved: 100 hours &nbsp; &nbsp;</div>
-    </div>
+    </div >
   );
 }
 

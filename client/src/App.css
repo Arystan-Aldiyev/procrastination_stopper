@@ -26,6 +26,7 @@
   height: 8vh;
   line-height: 8vh;
   text-align: center;
+  margin-top: 20px;
   font-size: 6vh;
   align-self: flex-start;
 }
@@ -45,6 +46,19 @@
   display: inline-block;
   vertical-align: top;
   background: none;
+}
+
+.itemList {
+  border: 1px solid black;
+  border-radius: 18px;
+  width: 30vw;
+  height: 70vh;
+  margin: auto;
+  margin-top: 50px;
+  justify-self: center;
+  align-self: center;
+  position: relative;
+  overflow-y: scroll;
 }
 
 .buttonToDo {
@@ -134,4 +148,42 @@
   text-align: left;
   display: inline-block;
   vertical-align: top;
+}
+
+/* ul {
+  position: absolute;
+  list-style-type: none;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.tasklistcontent {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 4vh;
+  margin-top: 20px;
+} */
+
+.itemList dt {
+  text-align: center;
+  font-weight: 500;
+  background-color: pink;
+  position: sticky;
+  top: 0;
+  /* margin-right: 10px; */
+  font-size: 4vh;
+  /* margin-top: 20px; */
+}
+
+dd {
+  border-bottom: 1px solid #ccc;
+  margin-right: 10px;
+  font-size: 4vh;
+  margin-top: 20px;
 }
