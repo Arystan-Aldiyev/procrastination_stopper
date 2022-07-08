@@ -82,27 +82,19 @@ function App() {
       console.log("undefined blinb")
     )
   }
-  {
-    Object.keys(taskTime).map((keys) => {
-      taskTime[keys].map((task) => (
-        console.log(task.key)
-      ))
-      console.log("######################")
-    })
-  }
+  // {
+  //   Object.keys(taskTime).filter((task) => { return task <= value }).map((keys) => {
+  //     console.log(value)
+  //     console.log(keys)
+  //     taskTime[keys].map((task) => (
+  //       console.log(task)
+  //     ))
+  //     console.log("######################")
+  //   })
+  // }
   return (
-    // <div>
-    //   {(typeof backendData.users === 'undefined') ? (
-    //     <p>Loading...</p>
-    //   ) : (
-    //     backendData.users.map((user, i) => (
-    //       <p key={i}>{user}</p>
-    //     ))
-    //   )}
-    // </div>
-
     <div div className="App" >
-      {(typeof backendData === 'undefined' || !showTasks || value === '') ? (
+      {(typeof backendData === 'undefined' /*|| !showTasks */ || value === '') ? (
         <div className='timer'>
           <input className="numb" id="intLimitTextBox" autoFocus type="text" placeholder='__' value={value} onKeyDown={(event) => event.target.style.width = (event.target.value.length + 1.2) + 'ch'} onChange={handleChange} />
           <select id="min/hour" className='mode'>
@@ -121,16 +113,8 @@ function App() {
             </select>
             <button id="myBtn" className='buttonToDo' onClick={() => { toggleShowTasks(!showTasks) }}>Main page</button>
           </div>
-          {/* <div className='itemList'>
-            <ul>
-              {backendData.filter((task) => { return task.time <= value }).map((task) => (
-
-                <li key={task.key}><div className='tasklistcontent'>{task.task}</div><div className='tasklistcontent'>{task.time}m</div></li>
-              ))}
-            </ul>
-          </div> */}
           <dl className='itemList'>
-            {Object.keys(taskTime).map((keys) => (
+            {Object.keys(taskTime).filter((time) => { return time <= parseInt(value) }).map((keys) => (
               <>
                 <dt key={keys}>{keys} min.</dt>
                 {taskTime[keys].map((task) => (
@@ -155,9 +139,6 @@ function App() {
           </dl>
 
         </div>
-        // backendData.map((task) => (
-        //   <p key={task.key}>{task.task}</p>
-        // ))
       )
       }
 
