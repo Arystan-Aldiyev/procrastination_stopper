@@ -150,7 +150,7 @@
   vertical-align: top;
 }
 
-/* ul {
+ul {
   position: absolute;
   list-style-type: none;
   overflow: scroll;
@@ -168,7 +168,7 @@ li {
   margin-right: 10px;
   font-size: 4vh;
   margin-top: 20px;
-} */
+}
 
 .itemList dt {
   text-align: center;

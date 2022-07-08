@@ -57,14 +57,39 @@ function App() {
   }, [])
 
   const [showTasks, toggleShowTasks] = useState(false)
-  const items = []
-  for (let i = 1; i <= value; i++) {
-    items.push(<dt key={i}>{i} min.</dt>)
-    backendData.filter((task) => { return task.time <= value }).map((task) => (
-      items.push(<dd>{task.task}</dd>)
-    ))
-  }
 
+  // const items = []
+  // for (let i = 1; i <= value; i++) {
+  //   items.push(<dt key={i}>{i} min.</dt>)
+  //   backendData.filter((task) => { return task.time <= value }).map((task) => (
+  //     items.push(<dd>{task.task}</dd>)
+  //   ))
+  // }
+  // let shown = new Set()
+  let taskTime = {
+
+  }
+  {
+    (typeof backendData !== 'undefined') ? (
+      backendData.map((task) => {
+        (taskTime.hasOwnProperty(task.time)) ? (
+          taskTime[task.time] = [...taskTime[task.time], { "key": task.key, "task": task.task }]
+        ) : (
+          taskTime[task.time] = [{ "key": task.key, "task": task.task }]
+        )
+      })
+    ) : (
+      console.log("undefined blinb")
+    )
+  }
+  {
+    Object.keys(taskTime).map((keys) => {
+      taskTime[keys].map((task) => (
+        console.log(task.key)
+      ))
+      console.log("######################")
+    })
+  }
   return (
     // <div>
     //   {(typeof backendData.users === 'undefined') ? (
@@ -76,7 +101,7 @@ function App() {
     //   )}
     // </div>
 
-    <div className="App">
+    <div div className="App" >
       {(typeof backendData === 'undefined' || !showTasks || value === '') ? (
         <div className='timer'>
           <input className="numb" id="intLimitTextBox" autoFocus type="text" placeholder='__' value={value} onKeyDown={(event) => event.target.style.width = (event.target.value.length + 1.2) + 'ch'} onChange={handleChange} />
@@ -96,13 +121,37 @@ function App() {
             </select>
             <button id="myBtn" className='buttonToDo' onClick={() => { toggleShowTasks(!showTasks) }}>Main page</button>
           </div>
-          <dl className='itemList'>
-            {/* <ul>
+          {/* <div className='itemList'>
+            <ul>
               {backendData.filter((task) => { return task.time <= value }).map((task) => (
+
                 <li key={task.key}><div className='tasklistcontent'>{task.task}</div><div className='tasklistcontent'>{task.time}m</div></li>
               ))}
-            </ul> */}
-            {items}
+            </ul>
+          </div> */}
+          <dl className='itemList'>
+            {Object.keys(taskTime).map((keys) => (
+              <>
+                <dt key={keys}>{keys} min.</dt>
+                {taskTime[keys].map((task) => (
+                  <dd key={task.key}>{task.task}</dd>
+                ))}
+              </>
+            ))}
+            {/* {backendData.filter((task) => { return task.time <= value }).map((task) => (
+              <>
+                {(shown.has(task.time)) ? (
+                  <dd key={task.key} className='tasklistcontent'>{task.task}</dd>
+                ) : (
+                  <>
+                    {shown.add(task.time)}
+                    <dt key={task.time}>{task.time} min.</dt>
+                    <dd key={task.key} className='tasklistcontent'>{task.task}</dd>
+                  </>
+                )}
+
+              </>
+            ))} */}
           </dl>
 
         </div>
@@ -113,7 +162,7 @@ function App() {
       }
 
       <div className='footer'> Time saved: 100 hours &nbsp; &nbsp;</div>
-    </div >
+    </div>
   );
 }
 
