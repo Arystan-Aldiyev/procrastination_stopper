@@ -1,119 +1,225 @@
 {
   "1": [
     {
-      "key": 1234231,
+      "task": "Make your bed"
+    },
+    {
+      "task": "Go around your house and pick up all the dishes and drinking glasses on your nightstand and coffee table."
+    },
+    {
+      "task": "Trim your toe nails."
+    },
+    {
+      "task": "Clean off your computer desktop."
+    },
+    {
+      "task": "Wipe off your bathroom mirror"
+    },
+    {
+      "task": "Open all the mail and envelopes you know aren’t important"
+    },
+    {
+      "task": "Pull in your trash, recycling, and compost bins from the curb."
+    },
+    {
+      "task": "Plug in your phone and charge it."
+    },
+    {
+      "task": "Take that pile of shoes by the front door (or under the coffee table) and put them where they belong."
+    },
+    {
+      "task": "Wash that plate or cereal bowl instead of putting it in the sink"
+    },
+    {
+      "task": "Take all the receipts and papers and bags out of your car."
+    },
+    {
+      "task": "Back up your computer."
+    },
+    {
+      "task": "Wipe off the front of your refrigerator or oven"
+    },
+    {
+      "task": "Send that one email reply you’ve been avoiding"
+    },
+    {
+      "task": "Clean the coffee pot or toss the filter and grounds now, not later."
+    },
+    {
+      "task": "Floss. Your. Teeth."
+    },
+    {
+      "task": "Go through your text messages and make sure you’ve actually replied to the important ones, not just replied in your head"
+    },
+    {
+      "task": "Invite your spouse or partner for some intimate time later."
+    },
+    {
+      "task": "Microwave a bowl of half white vinegar and half water for one minute"
+    },
+    {
+      "task": "Clean out your browser tabs"
+    },
+    {
+      "task": "Replenish your toilet paper reserves"
+    },
+    {
+      "task": "Throw all your dirty clothes in the hamper or a laundry basket."
+    },
+    {
+      "task": "Water your plants."
+    },
+    {
+      "task": "Stack up books, magazines, records, DVDs, library media, etc, that you’re currently enjoying."
+    },
+    {
+      "task": "Switch out your bathroom towels"
+    },
+    {
+      "task": "Take your vitamins"
+    },
+    {
+      "task": "Look away from the computer screen"
+    },
+    {
+      "task": "Refill your soap dispensers."
+    },
+    {
+      "task": "Stand up, take a walk"
+    },
+    {
+      "task": "Put on sunscreen."
+    },
+    {
+      "task": "Smile. Really, really big"
+    },
+    {
+      "task": "Fluff and straighten the pillows on your sofa"
+    },
+    {
+      "task": "Download current episodes of your favorite podcasts"
+    },
+    {
+      "task": "Tell somebody you love them."
+    },
+    {
+      "task": "Do 30 pushups."
+    },
+    {
+      "task": "Take all the coats and jackets off hooks and back of the door and hang them up in the closet."
+    },
+    {
+      "task": "Shake out door mats and bathroom rugs"
+    },
+    {
+      "task": "Sweep underneath the toe kick on your kitchen cabinets"
+    },
+    {
+      "task": "Wrap and coil up your cables, headphones, and power cords"
+    },
+    {
+      "task": "Close your eyes and breathe deeply for 60 seconds."
+    },
+    {
       "task": "Do 20 pushups"
     },
     {
-      "key": 1251245,
       "task": "Drink a glass of water"
     },
     {
-      "key": 1255,
       "task": "Check your todo list"
     }
   ],
   "2": [
     {
-      "key": 145343,
       "task": "Plan your next day"
     },
     {
-      "key": 124146,
       "task": "Slow down and catch your breath"
     }
   ],
   "3": [
     {
-      "key": 124124,
       "task": "Clean your workspace"
+    }
+  ],
+  "4": [
+    {
+      "task": "Do something"
     }
   ],
   "5": [
     {
-      "key": 1234152,
       "task": "Read a few pages of a book"
     },
     {
-      "key": 1341,
       "task": "Review your calendar"
     },
     {
-      "key": 54146,
       "task": "Affirm your goals"
     },
     {
-      "key": 56325,
       "task": "Quick stretch"
+    }
+  ],
+  "6": [
+    {
+      "task": "Do something"
     }
   ],
   "7": [
     {
-      "key": 67424,
       "task": "Delete apps you rarely use from your smartphone"
     }
   ],
   "8": [
     {
-      "key": 1252621,
       "task": "Some task to do"
     }
   ],
   "9": [
     {
-      "key": 1256521,
       "task": "Do this"
     }
   ],
   "10": [
     {
-      "key": 1215213621,
       "task": "Do that"
     },
     {
-      "key": 1125621,
       "task": "Or that"
     }
   ],
   "17": [
     {
-      "key": 1125612321,
       "task": "Something else"
     }
   ],
   "25": [
     {
-      "key": 11252612321,
       "task": "Why"
     },
     {
-      "key": 112512612321,
       "task": "are"
     },
     {
-      "key": 121,
       "task": "you"
     },
     {
-      "key": 112,
       "task": "still"
     },
     {
-      "key": 1321,
       "task": "scrolling?"
     }
   ],
   "31": [
     {
-      "key": 1321241,
       "task": "Stop"
     },
     {
-      "key": 13212241,
       "task": "it"
     },
     {
-      "key": 13121241,
       "task": "dude"
     }
   ]

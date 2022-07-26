@@ -1,6 +1,7 @@
 import './App.css';
 
 import { useState, useEffect } from 'react';
+import { v4 as uuid } from 'uuid';
 
 function App() {
 
@@ -48,6 +49,10 @@ function App() {
 
   const taskTime = require('./taski.json')
 
+  const generateRandom = () => {
+
+  }
+
   return (
     <div className="App" >
       {(value === '') ? (
@@ -57,7 +62,7 @@ function App() {
             <option value="minutesMode">minutes</option>
             <option value="hoursMode">hours</option>
           </select>
-          <button id="myBtn" className='buttonToDo' onClick={() => { toggleShowTasks(!showTasks) }}>Randomize</button>
+          {/* <button id="myBtn" className='buttonToDo' onClick={() => { toggleShowTasks(!showTasks) }}>Randomize</button> */}
         </div>
       ) : (
         <div className='wrapper'>
@@ -67,27 +72,30 @@ function App() {
               <option value="minutesMode">minutes</option>
               <option value="hoursMode">hours</option>
             </select>
-            {/* <button id="myBtn" className='buttonToDo' onClick={() => { toggleShowTasks(!showTasks) }}>Change tasks</button> */}
+            <button id="myBtn" className='buttonToDo' onClick={() => { toggleShowTasks(!showTasks) }}>{(showTasks) ? ('Random') : ('All')}</button>
           </div>
           {(showTasks) ? (
-            <dl className='itemList'>
-              {Object.keys(taskTime).filter((time) => { return time <= parseInt(value) }).map((minutes) => (
-                <>
-                  <dt key={minutes}>{minutes} min.</dt>
-                  {taskTime[minutes].map((task) => (
-                    <dd key={task.key}>{task.task}</dd>
-                  ))}
-                </>
-              ))}
-            </dl>
+            <div>
+              <dl className='itemList'>
+                {Object.keys(taskTime).filter((time) => { return time <= parseInt(value) }).map((minutes) => (
+                  <div key={uuid()}>
+                    <dt key={minutes}>{minutes} min.</dt>
+                    {taskTime[minutes].map((task) => (
+                      <dd key={uuid()}>{task.task}</dd>
+                    ))}
+                  </div>
+                ))}
+              </dl>
+              {/* <div id="myBtn" className='buttonShowAll' onClick={() => { toggleShowTasks(!showTasks) }}>Show random tasks</div> */}
+            </div>
           ) : (
-            <ul>
-              no
-              {/* {showAllTasks}
-              <li key={taskTime[ti[0]].key}><div className='tasklistcontent'>{taskTime[ti[0]].task}</div><div className='tasklistcontent'>{taskTime[ti[0]].time}m</div></li> */}
-            </ul>
+            <div>
+              <ul className='itemList'>
+                <li>1</li>
+              </ul>
+              {/* <div id="myBtn" className='buttonShowAll' onClick={() => { toggleShowTasks(!showTasks) }}>Show all tasks</div> */}
+            </div>
           )}
-          <div id="myBtn" className='buttonShowAll' onClick={() => { toggleShowTasks(!showTasks) }}>Show all tasks</div>
         </div>
       )
       }

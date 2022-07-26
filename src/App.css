@@ -217,7 +217,8 @@ li {
   /* margin-top: 20px; */
 }
 
-dd {
+dd,
+li {
   border-bottom: 1px solid #ccc;
   margin-right: 10px;
   font-size: 4vh;
