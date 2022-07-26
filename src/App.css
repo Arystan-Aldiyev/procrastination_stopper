@@ -1,0 +1,226 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  /* background: linear-gradient(to right, #a8ff78, #78ffd6); */
+  /* background: #eacda3; */
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #eacda3, #d6ae7b); */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #eacda3, #d6ae7b); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.timer {
+  width: 100vw;
+  height: 8vh;
+  line-height: 8vh;
+  text-align: center;
+  font-size: 6vh;
+  align-self: center;
+}
+
+.timer2 {
+  width: 100vw;
+  height: 8vh;
+  line-height: 8vh;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 6vh;
+  align-self: flex-start;
+}
+
+.numb {
+  border-radius: 5px;
+  border: none;
+  height: 8vh;
+  width: 3vw;
+  line-height: 8vh;
+  margin-right: 1vh;
+  outline: none;
+  text-align: center;
+  font-size: 6vh;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  background: none;
+}
+
+.itemList {
+  border-radius: 18px;
+  width: 30vw;
+  height: 70vh;
+  margin: auto;
+  margin-top: 50px;
+  justify-self: center;
+  align-self: center;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.buttonToDo {
+  /* align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation; */
+  border-radius: 8px;
+  border: 2px solid #111;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  height: 8vh;
+  width: 8vw;
+  font-size: 2vh;
+  line-height: 2vh;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.buttonToDo:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.buttonToDo:hover:after {
+  transform: translate(0, 0);
+}
+
+.buttonToDo:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+/* .buttonToDo:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+} */
+
+.buttonToDo:hover {
+  outline: 0;
+}
+
+/* .buttonToDo:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+} */
+
+::placeholder {
+  color: black;
+  opacity: 1;
+  font-size: 6vh;
+  font-weight: 200;
+}
+
+.numb:focus::placeholder {
+  color: transparent;
+}
+
+.footer {
+  font-size: 40px;
+  text-align: right;
+  width: 30vw;
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+}
+
+
+.mode {
+  background: none;
+  border-radius: 5px;
+  border: none;
+  height: 8vh;
+  width: 13vw;
+  line-height: 8vh;
+  margin-right: 1vh;
+  outline: none;
+  text-align: center;
+  font-size: 6vh;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
+
+ul {
+  position: absolute;
+  list-style-type: none;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.tasklistcontent {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 4vh;
+  margin-top: 20px;
+}
+
+.itemList dt {
+  text-align: center;
+  font-weight: 500;
+  background-color: palegoldenrod;
+  position: sticky;
+  top: 0;
+  /* margin-right: 10px; */
+  font-size: 4vh;
+  /* margin-top: 20px; */
+}
+
+dd {
+  border-bottom: 1px solid #ccc;
+  margin-right: 10px;
+  font-size: 4vh;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
