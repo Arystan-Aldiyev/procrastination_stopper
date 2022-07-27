@@ -49,20 +49,61 @@ function App() {
 
   const taskTime = require('./taski.json')
 
-  const generateRandom = () => {
+  // useEffect(() => {
+  //   if (value) {
+  //     generateRandom()
+  //   }
+  // }, [showTasks]);
 
-  }
+  // const [randomTaski, setRandomTaski] = useState([])
+  // const generateRandom = () => {
+  //   const randomTasks = new Set();
+  //   while (randomTasks.size < 3) {
+  //     if (parseInt(value) <= 2) {
+  //       const randomTask = taskTime[value][Math.floor(Math.random() * taskTime[value].length)]
+  //       randomTasks.add(randomTask)
+  //     }
+  //     setRandomTaski([...randomTasks])
+  //   }
+  //   return (
+  //     <li>{randomTaski[0].task}</li>
+  // )
+  // console.log([...randomTasks])
+  // return (
+  //   <div key={uuid()}>
+  //     {[...randomTasks].map((task) => (
+  //       <li key={uuid()}>{task.task}</li>
+  //     ))}
+  //   </div>
+  // )
+  // while (randomTasks.length < 3) {
+  //   if (parseInt(value) <= 2) {
+  //     const randomTask = taskTime[value][Math.floor(Math.random() * taskTime[value].length)]
+  //     if (!randomTasks.includes(randomTask)) {
+  //       setRandomTasks((prev) => [...prev, randomTask])
+  //       // randomTasks.push(randomTask)
+  //     }
+  //   }
+  //   if (parseInt(value) > 2 & parseInt(value) <= 5) {
+  //     console.log('ot 3 do 5')
+  //     // const randomTask = taskTime[value][Math.floor(Math.random() * taskTime[value].length)]
+  //     // if (!randomTasks.includes(randomTask)) {
+  //     //   randomTasks.push(randomTask)
+  //     // }
+  //   }
+  // }
+  // }
 
   return (
     <div className="App" >
-      {(value === '') ? (
+      {(!showTasks) ? (
         <div className='timer'>
           <input className="numb" id="intLimitTextBox" autoFocus type="text" placeholder='__' value={value} onKeyDown={(event) => event.target.style.width = (event.target.value.length + 1.2) + 'ch'} onChange={handleChange} />
           <select id="min/hour" className='mode'>
             <option value="minutesMode">minutes</option>
             <option value="hoursMode">hours</option>
           </select>
-          {/* <button id="myBtn" className='buttonToDo' onClick={() => { toggleShowTasks(!showTasks) }}>Randomize</button> */}
+          <button id="myBtn" className='buttonToDo' onClick={() => { toggleShowTasks(!showTasks) }}>Random</button>
         </div>
       ) : (
         <div className='wrapper'>
@@ -72,30 +113,42 @@ function App() {
               <option value="minutesMode">minutes</option>
               <option value="hoursMode">hours</option>
             </select>
-            <button id="myBtn" className='buttonToDo' onClick={() => { toggleShowTasks(!showTasks) }}>{(showTasks) ? ('Random') : ('All')}</button>
+            <button id="myBtn" className='buttonToDo'>Change tasks</button>
           </div>
-          {(showTasks) ? (
-            <div>
-              <dl className='itemList'>
-                {Object.keys(taskTime).filter((time) => { return time <= parseInt(value) }).map((minutes) => (
-                  <div key={uuid()}>
-                    <dt key={minutes}>{minutes} min.</dt>
-                    {taskTime[minutes].map((task) => (
-                      <dd key={uuid()}>{task.task}</dd>
-                    ))}
-                  </div>
-                ))}
-              </dl>
-              {/* <div id="myBtn" className='buttonShowAll' onClick={() => { toggleShowTasks(!showTasks) }}>Show random tasks</div> */}
-            </div>
-          ) : (
-            <div>
-              <ul className='itemList'>
-                <li>1</li>
-              </ul>
-              {/* <div id="myBtn" className='buttonShowAll' onClick={() => { toggleShowTasks(!showTasks) }}>Show all tasks</div> */}
-            </div>
-          )}
+          <div>
+            <ul className='itemList'>
+              <li>{taskTime[value][Math.floor(Math.random() * taskTime[value].length)].task}</li>
+              <li>{taskTime[value][Math.floor(Math.random() * taskTime[value].length)].task}</li>
+              <li>{taskTime[value][Math.floor(Math.random() * taskTime[value].length)].task}</li>
+              {/* {(randomTasks === []) ? (
+                  <li>Nothing to do :(</li>
+                ) : (
+                  <button onClick={() => { console.log(randomTasks) }}>blablabla</button>
+                )} */}
+            </ul>
+          </div>
+          {/* {(showTasks) ? (
+              <div>
+                <dl className='itemList'>
+                  {Object.keys(taskTime).filter((time) => { return time <= parseInt(value) }).map((minutes) => (
+                    <div key={uuid()}>
+                      <dt key={minutes}>{minutes} min.</dt>
+                      {taskTime[minutes].map((task) => (
+                        <dd key={uuid()}>{task.task}</dd>
+                      ))}
+                    </div>
+                  ))}
+                </dl>
+              </div>
+            ) : (
+              <div>
+                <ul className='itemList'>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+              </div>
+            )} */}
         </div>
       )
       }
