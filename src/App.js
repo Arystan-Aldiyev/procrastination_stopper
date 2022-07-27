@@ -2,6 +2,7 @@ import './App.css';
 
 import { useState, useEffect } from 'react';
 import { v4 as uuid } from 'uuid';
+import { Random } from './components/Random'
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
   }, "Must be a number between 0 and 120");
 
   const [showTasks, toggleShowTasks] = useState(false)
+  const [reloader, setReloader] = useState(false)
 
   const taskTime = require('./taski.json')
 
@@ -113,19 +115,21 @@ function App() {
               <option value="minutesMode">minutes</option>
               <option value="hoursMode">hours</option>
             </select>
-            <button id="myBtn" className='buttonToDo'>Change tasks</button>
+            <button id="myBtn" className='buttonToDo' onClick={() => { setValue(value) }}>Change tasks</button>
           </div>
           <div>
-            <ul className='itemList'>
+            {value === '' ? (
+              <ul className='itemList'>
+                <li>You can do nothing in 0 minutes</li>
+              </ul>
+            ) : (
+              <Random taskTime={taskTime} value={value} />
+            )}
+            {/* <ul className='itemList'>
               <li>{taskTime[value][Math.floor(Math.random() * taskTime[value].length)].task}</li>
               <li>{taskTime[value][Math.floor(Math.random() * taskTime[value].length)].task}</li>
               <li>{taskTime[value][Math.floor(Math.random() * taskTime[value].length)].task}</li>
-              {/* {(randomTasks === []) ? (
-                  <li>Nothing to do :(</li>
-                ) : (
-                  <button onClick={() => { console.log(randomTasks) }}>blablabla</button>
-                )} */}
-            </ul>
+            </ul> */}
           </div>
           {/* {(showTasks) ? (
               <div>
