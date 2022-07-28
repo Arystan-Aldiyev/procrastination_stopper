@@ -1,0 +1,56 @@
+import { v4 as uuid } from 'uuid';
+import { useState } from 'react';
+import { useEffect } from 'react';
+
+export const Random = ({ taskTime, value, randomTasks, handleChange }) => {
+  useEffect(() => {
+    generateRandom()
+  })
+  const generateRandom = () => {
+    randomTasks = new Set();
+    while (randomTasks.size < 3) {
+      if (parseInt(value) <= 2) {
+        const randomTask = taskTime[value][Math.floor(Math.random() * taskTime[value].length)]
+        randomTasks.add(randomTask)
+      }
+    }
+    console.log(randomTasks)
+  }
+
+  return (
+    <div className='wrapper'>
+      <div className='timer2'>
+        <input className="numb" id="intLimitTextBox" autoFocus type="text" placeholder='__' value={value} onKeyDown={(event) => event.target.style.width = (event.target.value.length + 1.2) + 'ch'} onChange={handleChange} />
+        <select id="min/hour" className='mode'>
+          <option value="minutesMode">minutes</option>
+          <option value="hoursMode">hours</option>
+        </select>
+        <button id="myBtn" className='buttonToDo' onClick={() => { generateRandom() }}>Change tasks</button>
+      </div>
+      <div>
+        {value === '' ? (
+          <ul className='itemList'>
+            <li>You can do nothing in 0 minutes</li>
+          </ul>
+        ) : (
+          <ul className='itemList'>
+            {/* <li>{taskTime[value][Math.floor(Math.random() * taskTime[value].length)].task}</li>
+            <li>{taskTime[value][Math.floor(Math.random() * taskTime[value].length)].task}</li>
+            <li>{taskTime[value][Math.floor(Math.random() * taskTime[value].length)].task}</li> */}
+            {(randomTasks.size === 0) ? (
+              <li>Nothing here yet</li>
+            ) : (
+              <>
+                <li></li>
+                <li></li>
+                <li></li>
+              </>
+            )}
+          </ul>
+        )}
+
+      </div>
+
+    </div>
+  )
+}

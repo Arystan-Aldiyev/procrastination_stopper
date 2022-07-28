@@ -244,16 +244,163 @@
     },
     {
       "task": "Slow down and catch your breath"
+    },
+    {
+      "task": "Test all the pens in your bag or on your desk"
+    },
+    {
+      "task": "Delete apps you rarely use from your smartphone"
+    },
+    {
+      "task": "Look through your Downloads folder and file or delete any files you can"
     }
   ],
   "3": [
     {
+      "task": "Take a walk around the block"
+    },
+    {
+      "task": "Tell a loved one you appreciate them"
+    },
+    {
+      "task": "Write in a journal"
+    },
+    {
+      "task": "Pay someone a compliment"
+    },
+    {
+      "task": "Affirm your goals for the year"
+    },
+    {
+      "task": "Tidy up your workspace"
+    },
+    {
+      "task": "Complete 10 jumping jacks"
+    },
+    {
+      "task": "Catch your breath by working on mindful breathing"
+    },
+    {
+      "task": "Save a contact on your phone"
+    },
+    {
+      "task": "Answer 5 emails"
+    },
+    {
+      "task": "Delete 5 junk emails"
+    },
+    {
+      "task": "Delete apps you rarely use from your smartphone"
+    },
+    {
+      "task": "Pick up toys"
+    },
+    {
+      "task": "Just ate? Wash your dish or put it in the dishwasher"
+    },
+    {
+      "task": "Toss laundry in the machine"
+    },
+    {
+      "task": "Take out the garbage"
+    },
+    {
+      "task": "Eat a banana or piece of fruit"
+    },
+    {
+      "task": "Read the first page of a new book"
+    },
+    {
+      "task": "Set a reminder on your phone to complete a goal or task you're likely to forget"
+    },
+    {
+      "task": "Make your bed"
+    },
+    {
+      "task": "Trim your nails"
+    },
+    {
+      "task": "Wipe off the bathroom sink after brushing your teeth"
+    },
+    {
+      "task": "Check the mail and throw out junk letters"
+    },
+    {
+      "task": "Back up your computer"
+    },
+    {
+      "task": "Throw out the coffee filter and grounds you left in the coffee maker this morning"
+    },
+    {
+      "task": "Floss"
+    },
+    {
+      "task": "Microwave a bowl of 1/2 white vinegar, 1/2 water for one minute, then wipe the grime away"
+    },
+    {
+      "task": "Throw dirty clothes in the hamper"
+    },
+    {
+      "task": "Clean out your open browser tabs or bookmarks"
+    },
+    {
+      "task": "Water the plants"
+    },
+    {
+      "task": "Take a daily vitamin"
+    },
+    {
+      "task": "Smile as wide as you can"
+    },
+    {
+      "task": "Have a wifi connection? Download your favorite podcasts or Netflix shows so you can watch while you're offline"
+    },
+    {
+      "task": "Smack the doormats and bathroom rugs against something"
+    },
+    {
+      "task": "Text your mom"
+    },
+    {
+      "task": "Driving? Plugin your phone to charge while you commute"
+    },
+    {
+      "task": "Create a grocery list and add to it when needed"
+    },
+    {
+      "task": "Brush your teeth"
+    },
+    {
+      "task": "Plan your next day"
+    },
+    {
+      "task": "Slow down and catch your breath"
+    },
+    {
       "task": "Clean your workspace"
+    },
+    {
+      "task": "Meditate"
     }
   ],
   "4": [
     {
-      "task": "Do something"
+      "task": "Unsubscribe from any newsletters that aren't helping you achieve your goals"
+    },
+    {
+      "task": "Update a few bullets on your resume"
+    },
+    {
+      "task": "Read a few pages of a book"
+    },
+    {
+      "task": "Review your calendar"
+    },
+    {
+      "task": "Affirm your goals"
+    },
+    {
+      "task": "Quick stretch"
     }
   ],
   "5": [
@@ -268,67 +415,1279 @@
     },
     {
       "task": "Quick stretch"
+    },
+    {
+      "task": "Unsubscribe from any newsletters that aren't helping you achieve your goals"
+    },
+    {
+      "task": "Update a few bullets on your resume"
+    },
+    {
+      "task": "Change the password to your email account(s)"
+    },
+    {
+      "task": "Review your schedule for the next day"
+    },
+    {
+      "task": "Delete items from your computer’s recycling or trash bin"
+    },
+    {
+      "task": "Clean your eyeglasses, reading glasses, or sunglasses"
+    },
+    {
+      "task": "Unsubscribe from an email list or newsletter you no longer wish to receive"
+    },
+    {
+      "task": "Make a grocery list for the week"
+    },
+    {
+      "task": "Clear your internet browser’s cache"
+    },
+    {
+      "task": "Brainstorm gift ideas for a friend or family member’s birthday."
+    },
+    {
+      "task": "Assemble an outfit for tomorrow"
+    },
+    {
+      "task": "Clean a dirty mirror"
+    },
+    {
+      "task": "Sit quietly to collect your thoughts or to relax"
+    },
+    {
+      "task": "Change a lightbulb"
+    },
+    {
+      "task": "Write a thank you note or email"
+    },
+    {
+      "task": "Shine a pair of dress shoes"
+    },
+    {
+      "task": "Update an app on your smartphone, tablet, laptop, or desktop"
+    },
+    {
+      "task": "Dust a piece of furniture"
+    },
+    {
+      "task": "Clear the sink drainboard or unload the dishwasher"
+    },
+    {
+      "task": "Check your bank account balance"
+    },
+    {
+      "task": "Scrub the kitchen or bathroom sink"
+    },
+    {
+      "task": "Open the windows to air out a stuffy room or office"
+    },
+    {
+      "task": "Fill out an appliance rebate or warranty application"
+    },
+    {
+      "task": "Vacuum a small rug or section of carpet"
+    },
+    {
+      "task": "Replace batteries in a remote control or other device"
+    },
+    {
+      "task": "Take out the trash or recycling"
+    },
+    {
+      "task": "Change the toner cartridge(s) in a printer or photocopier"
+    },
+    {
+      "task": "Recycle broken or damaged umbrellas"
+    },
+    {
+      "task": "Charge an electronic device or two"
+    },
+    {
+      "task": "Donate money to a favorite charity or organization"
+    },
+    {
+      "task": "Restock office supplies at your desk"
+    },
+    {
+      "task": "Pay a bill online or by phone"
+    },
+    {
+      "task": "Sort through the day’s postal mail"
+    },
+    {
+      "task": "Delete an unused app from your smartphone or computer"
+    },
+    {
+      "task": "Make your bed"
+    },
+    {
+      "task": "Throw away expired foods and condiments from your refrigerator"
+    },
+    {
+      "task": "Redeem a gift card online by purchasing a good or service"
+    },
+    {
+      "task": "Place dirty clothes in the hamper or washing machine"
+    },
+    {
+      "task": "Check your credit score"
+    },
+    {
+      "task": "Add your vacation days to your calendar or planner"
+    },
+    {
+      "task": "Update your LinkedIn profile or resume"
+    },
+    {
+      "task": "Wipe down a countertop or table"
+    },
+    {
+      "task": "Check the expiration date of your driver’s license, passport, or visa"
+    },
+    {
+      "task": "Polish a small piece of silver jewelry"
+    },
+    {
+      "task": "Shred a stack of papers"
+    },
+    {
+      "task": "Schedule your next haircut appointment"
+    },
+    {
+      "task": "Read a brief magazine article"
+    },
+    {
+      "task": "Vacuum or use a pressurized air canister to clean your computer’s keyboard"
+    },
+    {
+      "task": "Go outside for a quick walk and a breath of fresh air"
+    },
+    {
+      "task": "Refill paper in a printer or photocopier"
+    },
+    {
+      "task": "Delete old texts and voicemail messages"
+    },
+    {
+      "task": "Gather clothes to drop off at the dry cleaner’s"
+    },
+    {
+      "task": "Write a letter to a family member"
+    },
+    {
+      "task": "Breathe deeply. Seriously. For five whole minutes"
+    },
+    {
+      "task": "Do 15 pushups or 30 lunges. Feel the burn!"
+    },
+    {
+      "task": "Update the to-do list. Don’t have one? Well, take five minutes and make one"
+    },
+    {
+      "task": "Put on your power jam and dance (That's 30 calories for five minutes of dancing!)!"
+    },
+    {
+      "task": "Clean out the junk drawer"
+    },
+    {
+      "task": "Enjoy a cup of coffee"
+    },
+    {
+      "task": "Play with your dog or cat. It relieves stress—and your pet loves you for it!"
+    },
+    {
+      "task": "Write two non-work related emails"
+    },
+    {
+      "task": "Go through that stack of business cards, toss the ones you don’t need"
+    },
+    {
+      "task": "Make the bed. You’ll feel like a real grownup"
+    },
+    {
+      "task": "Delete unread (at least 14 days) emails. You are NEVER going to read them"
+    },
+    {
+      "task": "Vacuum one room"
+    },
+    {
+      "task": "Dust one shelf"
     }
   ],
   "6": [
     {
-      "task": "Do something"
+      "task": "Change the password to your email account(s)"
+    },
+    {
+      "task": "Review your schedule for the next day"
+    },
+    {
+      "task": "Delete items from your computer’s recycling or trash bin"
+    },
+    {
+      "task": "Clean your eyeglasses, reading glasses, or sunglasses"
+    },
+    {
+      "task": "Unsubscribe from an email list or newsletter you no longer wish to receive"
+    },
+    {
+      "task": "Make a grocery list for the week"
+    },
+    {
+      "task": "Clear your internet browser’s cache"
+    },
+    {
+      "task": "Brainstorm gift ideas for a friend or family member’s birthday."
+    },
+    {
+      "task": "Assemble an outfit for tomorrow"
+    },
+    {
+      "task": "Clean a dirty mirror"
+    },
+    {
+      "task": "Sit quietly to collect your thoughts or to relax"
+    },
+    {
+      "task": "Change a lightbulb"
+    },
+    {
+      "task": "Write a thank you note or email"
+    },
+    {
+      "task": "Shine a pair of dress shoes"
+    },
+    {
+      "task": "Update an app on your smartphone, tablet, laptop, or desktop"
+    },
+    {
+      "task": "Dust a piece of furniture"
+    },
+    {
+      "task": "Clear the sink drainboard or unload the dishwasher"
+    },
+    {
+      "task": "Check your bank account balance"
+    },
+    {
+      "task": "Scrub the kitchen or bathroom sink"
+    },
+    {
+      "task": "Open the windows to air out a stuffy room or office"
+    },
+    {
+      "task": "Fill out an appliance rebate or warranty application"
+    },
+    {
+      "task": "Vacuum a small rug or section of carpet"
+    },
+    {
+      "task": "Replace batteries in a remote control or other device"
+    },
+    {
+      "task": "Take out the trash or recycling"
+    },
+    {
+      "task": "Change the toner cartridge(s) in a printer or photocopier"
+    },
+    {
+      "task": "Recycle broken or damaged umbrellas"
+    },
+    {
+      "task": "Charge an electronic device or two"
+    },
+    {
+      "task": "Donate money to a favorite charity or organization"
+    },
+    {
+      "task": "Restock office supplies at your desk"
+    },
+    {
+      "task": "Pay a bill online or by phone"
+    },
+    {
+      "task": "Sort through the day’s postal mail"
+    },
+    {
+      "task": "Delete an unused app from your smartphone or computer"
+    },
+    {
+      "task": "Make your bed"
+    },
+    {
+      "task": "Throw away expired foods and condiments from your refrigerator"
+    },
+    {
+      "task": "Redeem a gift card online by purchasing a good or service"
+    },
+    {
+      "task": "Place dirty clothes in the hamper or washing machine"
+    },
+    {
+      "task": "Check your credit score"
+    },
+    {
+      "task": "Add your vacation days to your calendar or planner"
+    },
+    {
+      "task": "Update your LinkedIn profile or resume"
+    },
+    {
+      "task": "Wipe down a countertop or table"
+    },
+    {
+      "task": "Check the expiration date of your driver’s license, passport, or visa"
+    },
+    {
+      "task": "Polish a small piece of silver jewelry"
+    },
+    {
+      "task": "Shred a stack of papers"
+    },
+    {
+      "task": "Schedule your next haircut appointment"
+    },
+    {
+      "task": "Read a brief magazine article"
+    },
+    {
+      "task": "Vacuum or use a pressurized air canister to clean your computer’s keyboard"
+    },
+    {
+      "task": "Go outside for a quick walk and a breath of fresh air"
+    },
+    {
+      "task": "Refill paper in a printer or photocopier"
+    },
+    {
+      "task": "Delete old texts and voicemail messages"
+    },
+    {
+      "task": "Gather clothes to drop off at the dry cleaner’s"
+    },
+    {
+      "task": "Clean out the junk drawer"
+    },
+    {
+      "task": "Enjoy a cup of coffee"
+    },
+    {
+      "task": "Play with your dog or cat. It relieves stress—and your pet loves you for it!"
+    },
+    {
+      "task": "Write two non-work related emails"
+    },
+    {
+      "task": "Go through that stack of business cards, toss the ones you don’t need"
+    },
+    {
+      "task": "Make the bed. You’ll feel like a real grownup"
+    },
+    {
+      "task": "Delete unread (at least 14 days) emails. You are NEVER going to read them"
+    },
+    {
+      "task": "Vacuum one room"
+    },
+    {
+      "task": "Dust one shelf"
     }
   ],
   "7": [
     {
-      "task": "Delete apps you rarely use from your smartphone"
+      "task": "Change the password to your email account(s)"
+    },
+    {
+      "task": "Review your schedule for the next day"
+    },
+    {
+      "task": "Delete items from your computer’s recycling or trash bin"
+    },
+    {
+      "task": "Clean your eyeglasses, reading glasses, or sunglasses"
+    },
+    {
+      "task": "Unsubscribe from an email list or newsletter you no longer wish to receive"
+    },
+    {
+      "task": "Make a grocery list for the week"
+    },
+    {
+      "task": "Clear your internet browser’s cache"
+    },
+    {
+      "task": "Brainstorm gift ideas for a friend or family member’s birthday."
+    },
+    {
+      "task": "Assemble an outfit for tomorrow"
+    },
+    {
+      "task": "Clean a dirty mirror"
+    },
+    {
+      "task": "Sit quietly to collect your thoughts or to relax"
+    },
+    {
+      "task": "Change a lightbulb"
+    },
+    {
+      "task": "Write a thank you note or email"
+    },
+    {
+      "task": "Shine a pair of dress shoes"
+    },
+    {
+      "task": "Update an app on your smartphone, tablet, laptop, or desktop"
+    },
+    {
+      "task": "Dust a piece of furniture"
+    },
+    {
+      "task": "Clear the sink drainboard or unload the dishwasher"
+    },
+    {
+      "task": "Check your bank account balance"
+    },
+    {
+      "task": "Scrub the kitchen or bathroom sink"
+    },
+    {
+      "task": "Open the windows to air out a stuffy room or office"
+    },
+    {
+      "task": "Fill out an appliance rebate or warranty application"
+    },
+    {
+      "task": "Vacuum a small rug or section of carpet"
+    },
+    {
+      "task": "Replace batteries in a remote control or other device"
+    },
+    {
+      "task": "Take out the trash or recycling"
+    },
+    {
+      "task": "Change the toner cartridge(s) in a printer or photocopier"
+    },
+    {
+      "task": "Recycle broken or damaged umbrellas"
+    },
+    {
+      "task": "Charge an electronic device or two"
+    },
+    {
+      "task": "Donate money to a favorite charity or organization"
+    },
+    {
+      "task": "Restock office supplies at your desk"
+    },
+    {
+      "task": "Pay a bill online or by phone"
+    },
+    {
+      "task": "Sort through the day’s postal mail"
+    },
+    {
+      "task": "Delete an unused app from your smartphone or computer"
+    },
+    {
+      "task": "Make your bed"
+    },
+    {
+      "task": "Throw away expired foods and condiments from your refrigerator"
+    },
+    {
+      "task": "Redeem a gift card online by purchasing a good or service"
+    },
+    {
+      "task": "Place dirty clothes in the hamper or washing machine"
+    },
+    {
+      "task": "Check your credit score"
+    },
+    {
+      "task": "Add your vacation days to your calendar or planner"
+    },
+    {
+      "task": "Update your LinkedIn profile or resume"
+    },
+    {
+      "task": "Wipe down a countertop or table"
+    },
+    {
+      "task": "Check the expiration date of your driver’s license, passport, or visa"
+    },
+    {
+      "task": "Polish a small piece of silver jewelry"
+    },
+    {
+      "task": "Shred a stack of papers"
+    },
+    {
+      "task": "Schedule your next haircut appointment"
+    },
+    {
+      "task": "Read a brief magazine article"
+    },
+    {
+      "task": "Vacuum or use a pressurized air canister to clean your computer’s keyboard"
+    },
+    {
+      "task": "Go outside for a quick walk and a breath of fresh air"
+    },
+    {
+      "task": "Refill paper in a printer or photocopier"
+    },
+    {
+      "task": "Delete old texts and voicemail messages"
+    },
+    {
+      "task": "Gather clothes to drop off at the dry cleaner’s"
+    },
+    {
+      "task": "Clean out the junk drawer"
+    },
+    {
+      "task": "Enjoy a cup of coffee"
+    },
+    {
+      "task": "Play with your dog or cat. It relieves stress—and your pet loves you for it!"
+    },
+    {
+      "task": "Write two non-work related emails"
+    },
+    {
+      "task": "Go through that stack of business cards, toss the ones you don’t need"
+    },
+    {
+      "task": "Make the bed. You’ll feel like a real grownup"
+    },
+    {
+      "task": "Delete unread (at least 14 days) emails. You are NEVER going to read them"
+    },
+    {
+      "task": "Vacuum one room"
+    },
+    {
+      "task": "Dust one shelf"
     }
   ],
   "8": [
     {
-      "task": "Some task to do"
+      "task": "Change the password to your email account(s)"
+    },
+    {
+      "task": "Review your schedule for the next day"
+    },
+    {
+      "task": "Delete items from your computer’s recycling or trash bin"
+    },
+    {
+      "task": "Clean your eyeglasses, reading glasses, or sunglasses"
+    },
+    {
+      "task": "Unsubscribe from an email list or newsletter you no longer wish to receive"
+    },
+    {
+      "task": "Make a grocery list for the week"
+    },
+    {
+      "task": "Clear your internet browser’s cache"
+    },
+    {
+      "task": "Brainstorm gift ideas for a friend or family member’s birthday."
+    },
+    {
+      "task": "Assemble an outfit for tomorrow"
+    },
+    {
+      "task": "Clean a dirty mirror"
+    },
+    {
+      "task": "Sit quietly to collect your thoughts or to relax"
+    },
+    {
+      "task": "Change a lightbulb"
+    },
+    {
+      "task": "Write a thank you note or email"
+    },
+    {
+      "task": "Shine a pair of dress shoes"
+    },
+    {
+      "task": "Update an app on your smartphone, tablet, laptop, or desktop"
+    },
+    {
+      "task": "Dust a piece of furniture"
+    },
+    {
+      "task": "Clear the sink drainboard or unload the dishwasher"
+    },
+    {
+      "task": "Check your bank account balance"
+    },
+    {
+      "task": "Scrub the kitchen or bathroom sink"
+    },
+    {
+      "task": "Open the windows to air out a stuffy room or office"
+    },
+    {
+      "task": "Fill out an appliance rebate or warranty application"
+    },
+    {
+      "task": "Vacuum a small rug or section of carpet"
+    },
+    {
+      "task": "Replace batteries in a remote control or other device"
+    },
+    {
+      "task": "Take out the trash or recycling"
+    },
+    {
+      "task": "Change the toner cartridge(s) in a printer or photocopier"
+    },
+    {
+      "task": "Recycle broken or damaged umbrellas"
+    },
+    {
+      "task": "Charge an electronic device or two"
+    },
+    {
+      "task": "Donate money to a favorite charity or organization"
+    },
+    {
+      "task": "Restock office supplies at your desk"
+    },
+    {
+      "task": "Pay a bill online or by phone"
+    },
+    {
+      "task": "Sort through the day’s postal mail"
+    },
+    {
+      "task": "Delete an unused app from your smartphone or computer"
+    },
+    {
+      "task": "Make your bed"
+    },
+    {
+      "task": "Throw away expired foods and condiments from your refrigerator"
+    },
+    {
+      "task": "Redeem a gift card online by purchasing a good or service"
+    },
+    {
+      "task": "Place dirty clothes in the hamper or washing machine"
+    },
+    {
+      "task": "Check your credit score"
+    },
+    {
+      "task": "Add your vacation days to your calendar or planner"
+    },
+    {
+      "task": "Update your LinkedIn profile or resume"
+    },
+    {
+      "task": "Wipe down a countertop or table"
+    },
+    {
+      "task": "Check the expiration date of your driver’s license, passport, or visa"
+    },
+    {
+      "task": "Polish a small piece of silver jewelry"
+    },
+    {
+      "task": "Shred a stack of papers"
+    },
+    {
+      "task": "Schedule your next haircut appointment"
+    },
+    {
+      "task": "Read a brief magazine article"
+    },
+    {
+      "task": "Vacuum or use a pressurized air canister to clean your computer’s keyboard"
+    },
+    {
+      "task": "Go outside for a quick walk and a breath of fresh air"
+    },
+    {
+      "task": "Refill paper in a printer or photocopier"
+    },
+    {
+      "task": "Delete old texts and voicemail messages"
+    },
+    {
+      "task": "Gather clothes to drop off at the dry cleaner’s"
+    },
+    {
+      "task": "Clean out the junk drawer"
+    },
+    {
+      "task": "Enjoy a cup of coffee"
+    },
+    {
+      "task": "Play with your dog or cat. It relieves stress—and your pet loves you for it!"
+    },
+    {
+      "task": "Write two non-work related emails"
+    },
+    {
+      "task": "Go through that stack of business cards, toss the ones you don’t need"
+    },
+    {
+      "task": "Make the bed. You’ll feel like a real grownup"
+    },
+    {
+      "task": "Delete unread (at least 14 days) emails. You are NEVER going to read them"
+    },
+    {
+      "task": "Vacuum one room"
+    },
+    {
+      "task": "Dust one shelf"
     }
   ],
   "9": [
     {
-      "task": "Do this"
+      "task": "Declutter your inbox"
+    },
+    {
+      "task": "Track your time"
+    },
+    {
+      "task": "Set goals for the week ahead"
+    },
+    {
+      "task": "Write a to-do list"
+    },
+    {
+      "task": "Evaluate your progress"
+    },
+    {
+      "task": "Organize your workspace"
+    },
+    {
+      "task": "Make a phone call"
+    },
+    {
+      "task": "Brainstorm for your new project"
+    },
+    {
+      "task": "Read"
+    },
+    {
+      "task": "Take a walk"
+    },
+    {
+      "task": "Move your body"
+    },
+    {
+      "task": "Make a meal plan for the week"
+    },
+    {
+      "task": "Journal"
+    },
+    {
+      "task": "Watch a good Youtube video"
+    },
+    {
+      "task": "Do a personality test"
     }
   ],
   "10": [
     {
-      "task": "Do that"
+      "task": "Declutter your inbox"
     },
     {
-      "task": "Or that"
+      "task": "Track your time"
+    },
+    {
+      "task": "Set goals for the week ahead"
+    },
+    {
+      "task": "Write a to-do list"
+    },
+    {
+      "task": "Evaluate your progress"
+    },
+    {
+      "task": "Organize your workspace"
+    },
+    {
+      "task": "Make a phone call"
+    },
+    {
+      "task": "Brainstorm for your new project"
+    },
+    {
+      "task": "Read"
+    },
+    {
+      "task": "Take a walk"
+    },
+    {
+      "task": "Move your body"
+    },
+    {
+      "task": "Make a meal plan for the week"
+    },
+    {
+      "task": "Journal"
+    },
+    {
+      "task": "Watch a good Youtube video"
+    },
+    {
+      "task": "Do a personality test"
     }
   ],
-  "17": [
+  "11": [
     {
-      "task": "Something else"
+      "task": "Declutter your inbox"
+    },
+    {
+      "task": "Track your time"
+    },
+    {
+      "task": "Set goals for the week ahead"
+    },
+    {
+      "task": "Write a to-do list"
+    },
+    {
+      "task": "Evaluate your progress"
+    },
+    {
+      "task": "Organize your workspace"
+    },
+    {
+      "task": "Make a phone call"
+    },
+    {
+      "task": "Brainstorm for your new project"
+    },
+    {
+      "task": "Read"
+    },
+    {
+      "task": "Take a walk"
+    },
+    {
+      "task": "Move your body"
+    },
+    {
+      "task": "Make a meal plan for the week"
+    },
+    {
+      "task": "Journal"
+    },
+    {
+      "task": "Watch a good Youtube video"
+    },
+    {
+      "task": "Do a personality test"
+    },
+    {
+      "task": "Start or Fill Your Journal"
+    },
+    {
+      "task": "Read Articles About Lifehacks"
+    },
+    {
+      "task": "Watch Useful Videos"
+    },
+    {
+      "task": "Listen to Podcasts"
+    },
+    {
+      "task": "Find New Skills You Would Like to Master"
+    },
+    {
+      "task": "Review Your To-Do List or To-Buy List"
+    },
+    {
+      "task": "Clean Your Desktop"
+    },
+    {
+      "task": "Organise Files and Folders on Your Laptop or PC"
+    },
+    {
+      "task": "De-Clutter Your Inbox"
+    },
+    {
+      "task": "Unsubscribe from Unnecessary Newsletters"
+    },
+    {
+      "task": "Update the List of Upcoming Meetings"
+    },
+    {
+      "task": "Delegate Tasks"
+    },
+    {
+      "task": "Network and Communicate"
+    },
+    {
+      "task": "Set Your Goals for the Next Year"
+    },
+    {
+      "task": "Meditate or Do Exercises"
+    },
+    {
+      "task": "Get Motivated"
+    },
+    {
+      "task": "Create a Useful Post on Socials"
+    },
+    {
+      "task": "Start Your Own Blog or Vlog"
+    },
+    {
+      "task": "Leave Reviews"
+    },
+    {
+      "task": "Call Your Relatives and Friends"
     }
   ],
-  "25": [
+  "12": [
     {
-      "task": "Why"
+      "task": "Declutter your inbox"
     },
     {
-      "task": "are"
+      "task": "Track your time"
     },
     {
-      "task": "you"
+      "task": "Set goals for the week ahead"
     },
     {
-      "task": "still"
+      "task": "Write a to-do list"
     },
     {
-      "task": "scrolling?"
+      "task": "Evaluate your progress"
+    },
+    {
+      "task": "Organize your workspace"
+    },
+    {
+      "task": "Make a phone call"
+    },
+    {
+      "task": "Brainstorm for your new project"
+    },
+    {
+      "task": "Read"
+    },
+    {
+      "task": "Take a walk"
+    },
+    {
+      "task": "Move your body"
+    },
+    {
+      "task": "Make a meal plan for the week"
+    },
+    {
+      "task": "Journal"
+    },
+    {
+      "task": "Watch a good Youtube video"
+    },
+    {
+      "task": "Do a personality test"
+    },
+    {
+      "task": "Start or Fill Your Journal"
+    },
+    {
+      "task": "Read Articles About Lifehacks"
+    },
+    {
+      "task": "Watch Useful Videos"
+    },
+    {
+      "task": "Listen to Podcasts"
+    },
+    {
+      "task": "Find New Skills You Would Like to Master"
+    },
+    {
+      "task": "Review Your To-Do List or To-Buy List"
+    },
+    {
+      "task": "Clean Your Desktop"
+    },
+    {
+      "task": "Organise Files and Folders on Your Laptop or PC"
+    },
+    {
+      "task": "De-Clutter Your Inbox"
+    },
+    {
+      "task": "Unsubscribe from Unnecessary Newsletters"
+    },
+    {
+      "task": "Update the List of Upcoming Meetings"
+    },
+    {
+      "task": "Delegate Tasks"
+    },
+    {
+      "task": "Network and Communicate"
+    },
+    {
+      "task": "Set Your Goals for the Next Year"
+    },
+    {
+      "task": "Meditate or Do Exercises"
+    },
+    {
+      "task": "Get Motivated"
+    },
+    {
+      "task": "Create a Useful Post on Socials"
+    },
+    {
+      "task": "Start Your Own Blog or Vlog"
+    },
+    {
+      "task": "Leave Reviews"
+    },
+    {
+      "task": "Call Your Relatives and Friends"
     }
   ],
-  "31": [
+  "13": [
     {
-      "task": "Stop"
+      "task": "Start or Fill Your Journal"
     },
     {
-      "task": "it"
+      "task": "Read Articles About Lifehacks"
     },
     {
-      "task": "dude"
+      "task": "Watch Useful Videos"
+    },
+    {
+      "task": "Listen to Podcasts"
+    },
+    {
+      "task": "Find New Skills You Would Like to Master"
+    },
+    {
+      "task": "Review Your To-Do List or To-Buy List"
+    },
+    {
+      "task": "Clean Your Desktop"
+    },
+    {
+      "task": "Organise Files and Folders on Your Laptop or PC"
+    },
+    {
+      "task": "De-Clutter Your Inbox"
+    },
+    {
+      "task": "Unsubscribe from Unnecessary Newsletters"
+    },
+    {
+      "task": "Update the List of Upcoming Meetings"
+    },
+    {
+      "task": "Delegate Tasks"
+    },
+    {
+      "task": "Network and Communicate"
+    },
+    {
+      "task": "Set Your Goals for the Next Year"
+    },
+    {
+      "task": "Meditate or Do Exercises"
+    },
+    {
+      "task": "Get Motivated"
+    },
+    {
+      "task": "Create a Useful Post on Socials"
+    },
+    {
+      "task": "Start Your Own Blog or Vlog"
+    },
+    {
+      "task": "Leave Reviews"
+    },
+    {
+      "task": "Call Your Relatives and Friends"
     }
-  ]
+  ],
+  "14": [
+    {
+      "task": "Start or Fill Your Journal"
+    },
+    {
+      "task": "Read Articles About Lifehacks"
+    },
+    {
+      "task": "Watch Useful Videos"
+    },
+    {
+      "task": "Listen to Podcasts"
+    },
+    {
+      "task": "Find New Skills You Would Like to Master"
+    },
+    {
+      "task": "Review Your To-Do List or To-Buy List"
+    },
+    {
+      "task": "Clean Your Desktop"
+    },
+    {
+      "task": "Organise Files and Folders on Your Laptop or PC"
+    },
+    {
+      "task": "De-Clutter Your Inbox"
+    },
+    {
+      "task": "Unsubscribe from Unnecessary Newsletters"
+    },
+    {
+      "task": "Update the List of Upcoming Meetings"
+    },
+    {
+      "task": "Delegate Tasks"
+    },
+    {
+      "task": "Network and Communicate"
+    },
+    {
+      "task": "Set Your Goals for the Next Year"
+    },
+    {
+      "task": "Meditate or Do Exercises"
+    },
+    {
+      "task": "Get Motivated"
+    },
+    {
+      "task": "Create a Useful Post on Socials"
+    },
+    {
+      "task": "Start Your Own Blog or Vlog"
+    },
+    {
+      "task": "Leave Reviews"
+    },
+    {
+      "task": "Call Your Relatives and Friends"
+    }
+  ],
+  "15": [],
+  "16": [],
+  "17": [],
+  "18": [],
+  "19": [],
+  "20": [],
+  "21": [],
+  "22": [],
+  "23": [],
+  "24": [],
+  "25": [],
+  "26": [],
+  "27": [],
+  "28": [],
+  "29": [],
+  "30": [],
+  "31": [],
+  "32": [],
+  "33": [],
+  "34": [],
+  "35": [],
+  "36": [],
+  "37": [],
+  "38": [],
+  "39": [],
+  "40": [],
+  "41": [],
+  "42": [],
+  "43": [],
+  "44": [],
+  "45": [],
+  "46": [],
+  "47": [],
+  "48": [],
+  "49": [],
+  "50": [],
+  "51": [],
+  "52": [],
+  "53": [],
+  "54": [],
+  "55": [],
+  "56": [],
+  "57": [],
+  "58": [],
+  "59": [],
+  "60": [],
+  "61": [],
+  "62": [],
+  "63": [],
+  "64": [],
+  "65": [],
+  "66": [],
+  "67": [],
+  "68": [],
+  "69": [],
+  "70": [],
+  "71": [],
+  "72": [],
+  "73": [],
+  "74": [],
+  "75": [],
+  "76": [],
+  "77": [],
+  "78": [],
+  "79": [],
+  "80": [],
+  "81": [],
+  "82": [],
+  "83": [],
+  "84": [],
+  "85": [],
+  "86": [],
+  "87": [],
+  "88": [],
+  "89": [],
+  "90": [],
+  "91": [],
+  "92": [],
+  "93": [],
+  "94": [],
+  "95": [],
+  "96": [],
+  "97": [],
+  "98": [],
+  "99": [],
+  "100": [],
+  "101": [],
+  "102": [],
+  "103": [],
+  "104": [],
+  "105": [],
+  "106": [],
+  "107": [],
+  "108": [],
+  "109": [],
+  "110": [],
+  "111": [],
+  "112": [],
+  "113": [],
+  "114": [],
+  "115": [],
+  "116": [],
+  "117": [],
+  "118": [],
+  "119": [],
+  "120": []
 }
