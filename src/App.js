@@ -1,7 +1,6 @@
 import './App.css';
 
-import { useState, useEffect } from 'react';
-import { v4 as uuid } from 'uuid';
+import { useState } from 'react';
 import { Random } from './components/Random'
 
 function App() {
@@ -67,7 +66,7 @@ function App() {
       ) : (
         <div className='wrapper'>
           <div className='timer2'>
-            <input className="numb" id="intLimitTextBox" autoFocus type="text" placeholder='__' value={(flag) ? (value) : (value - 1)} onKeyDown={(event) => event.target.style.width = (event.target.value.length + 1.2) + 'ch'} onChange={handleChange} />
+            <input className="numb" id="intLimitTextBox" autoFocus type="text" placeholder='__' value={(flag) ? (parseInt(value)) : (parseInt(value - 1))} onKeyDown={(event) => event.target.style.width = (event.target.value.length + 1.2) + 'ch'} onChange={handleChange} />
             minutes
             <button id="myBtn" className='buttonToDo' onClick={() => { handleClick() }}>Change tasks</button>
           </div>

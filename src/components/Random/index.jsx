@@ -67,7 +67,16 @@ export const Random = ({ taskTime, value }) => {
         ) : (
           null
         )}
-
+      {
+        90 <= value & value <= 120 ? (
+          <ul className='itemList'>
+            <li>{taskTime[90][Math.floor(Math.random() * taskTime[90].length)].task}</li>
+            <li>{taskTime[90][Math.floor(Math.random() * taskTime[90].length)].task}</li>
+            <li>{taskTime[90][Math.floor(Math.random() * taskTime[90].length)].task}</li>
+          </ul>
+        ) : (
+          null
+        )}
     </>
 
   )

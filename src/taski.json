@@ -3768,27 +3768,1180 @@
   ],
   "90": [
     {
+      "task": "Wash a load of laundry"
+    },
+    {
+      "task": "Rewash the load of laundry you forgot about!"
+    },
+    {
+      "task": "Hang laundry or move it to the dryer"
+    },
+    {
+      "task": "Fold or hang up your laundry – we ditched dressers and hang up 99% of our clothes now!"
+    },
+    {
+      "task": "Clean your kitchen"
+    },
+    {
+      "task": "Descale your coffee maker"
+    },
+    {
+      "task": "Unload dishwasher"
+    },
+    {
+      "task": "Reload dishwasher"
+    },
+    {
+      "task": "Organize cupboards"
+    },
+    {
+      "task": "Remove items with missing pieces from your cupboard"
+    },
+    {
+      "task": "Remove cracked glassware and dishes from your cupboards"
+    },
+    {
+      "task": "Remove socks with no partners from your sock drawer / bin"
+    },
+    {
+      "task": "Evaluate your wardrobe – donate or sell things you haven’t worn in 6 months"
+    },
+    {
+      "task": "Organize your closet – i.e. short sleeves together, by colour, style, etc."
+    },
+    {
+      "task": "Clean out a drawer full of miscellaneous items"
+    },
+    {
+      "task": "Organize your pantry – i.e. remove expired items, downsize large packages"
+    },
+    {
+      "task": "Declutter your paperwork – in the US, you can toss receipts after 3 years but in Canada, you’ll need to hang on to them for at least 6 years"
+    },
+    {
+      "task": "Pre-cut / chop fruits and veggies – I store mine in glass containers like 1 | 2 | 3 so it’s easy to snack and prep meals for my family later on!"
+    },
+    {
+      "task": "Clean out your fridge – remove expired items, downsize large packaging, wash bins, etc."
+    },
+    {
+      "task": "Wash your kitchen counters"
+    },
+    {
+      "task": "Wash your cupboards"
+    },
+    {
+      "task": "Wash your appliances – I love these stainless steel wipes for our appliances and drawer handles"
+    },
+    {
+      "task": "Clean and wash your kitchen table"
+    },
+    {
+      "task": "Organize your desk"
+    },
+    {
+      "task": "Change your bed sheets and pillow covers"
+    },
+    {
+      "task": "Vacuum"
+    },
+    {
+      "task": "Evaluate your cookware – sell or donate less than ideal items"
+    },
+    {
+      "task": "Organize your cleaning supplies"
+    },
+    {
+      "task": "Clean toilets"
+    },
+    {
+      "task": "Wash your sink"
+    },
+    {
+      "task": "Scrub your shower / bath tub"
+    },
+    {
+      "task": "Wash window ledges"
+    },
+    {
+      "task": "Windex your windows and mirrors – nothing on earth works better than this!"
+    },
+    {
+      "task": "Vacuum / dust vents"
+    },
+    {
+      "task": "Assess your library – go digital whenever you can to save space"
+    },
+    {
+      "task": "Say goodbye to worn out clothing and footwear"
+    },
+    {
+      "task": "Remove footwear that hasn’t been worn in over 6 months from your entryway / shoe cabinet"
+    },
+    {
+      "task": "Clean your makeup brushes – it’s as simple as using shampoo and conditioner!"
+    },
+    {
+      "task": "Clean out your freezer – check packaging dates and remove items that are no longer safe to eat"
+    },
+    {
+      "task": "Prep dinner / work lunches – safely defrost items to gain time later on"
+    },
+    {
+      "task": "Downsize your skincare / makeup collection – remove items that are expired"
+    },
+    {
+      "task": "Declutter your home one room at a time"
+    },
+    {
+      "task": "Re-organize under your sink"
+    },
+    {
+      "task": "Wash your shower curtain"
+    },
+    {
+      "task": "Wash baseboards – it doesn’t need to be for just special occasions 😉"
+    },
+    {
+      "task": "Ask your kids for help downsizing their playroom / toys"
+    },
+    {
+      "task": "Dust blinds"
+    },
+    {
+      "task": "Throw curtains in the wash"
+    },
+    {
+      "task": "Windex mirrors and windows"
+    },
+    {
+      "task": "De-crumb your toaster – no more burnt toast smell"
+    },
+    {
+      "task": "Clean your oven or run it’s self-cleaning feature"
+    },
+    {
+      "task": "Clean your microwave"
+    },
+    {
+      "task": "Spot clean your carpet"
+    },
+    {
+      "task": "Clean out your vacuum"
+    },
+    {
+      "task": "Stock up on cold and flu remedies – running out during a nasty bug sucks!"
+    },
+    {
+      "task": "Organize your medicine cabinet"
+    },
+    {
+      "task": "Hang up some photos or canvas art you haven’t gotten to yet"
+    },
+    {
+      "task": "Create a Pinterest board for a room your want to update"
+    },
+    {
+      "task": "Paint a room in your home that needs serious TLC – here are a few Bougie trends to consider"
+    },
+    {
+      "task": "Clean out your garage – I use clear plastic bins for everything now! Life changing stuff"
+    },
+    {
+      "task": "Learn a new word – use it in a sentence today"
+    },
+    {
+      "task": "Plan a vacation"
+    },
+    {
+      "task": "Fix something in your home"
+    },
+    {
+      "task": "Take a trip to a health food store – fill your fridge with healthy options!"
+    },
+    {
+      "task": "Create or purchase cards for upcoming special occasions – birthdays, anniversaries, etc."
+    },
+    {
+      "task": "Create a family photo album you can display proudly in your home"
+    },
+    {
+      "task": "Research and start a new diet – my husband and I have been keto since October!"
+    },
+    {
+      "task": "Start a new fitness routine – I love spinning on my Peloton and doing yoga"
+    },
+    {
+      "task": "Book dentist appointments for yourself and your family – cleaning every 6 months is ideal"
+    },
+    {
+      "task": "Floss!"
+    },
+    {
+      "task": "Schedule an annual health checkup with your doctor"
+    },
+    {
+      "task": "Visit your optometrist – update your prescription"
+    },
+    {
+      "task": "Clean out your desk drawer – check to see which pens still work!"
+    },
+    {
+      "task": "Deep clean pots and pans"
+    },
+    {
+      "task": "Detangle jewelry"
+    },
+    {
+      "task": "Detangle and organize wild cables"
+    },
+    {
+      "task": "Refill your printer with ink"
+    },
+    {
+      "task": "Take back empties to the bottle depot"
+    },
+    {
+      "task": "Have an excess amount of cardboard? Drive it to recycling yourself!"
+    },
+    {
+      "task": "Call a friend or family member that’s been on your mind"
+    },
+    {
+      "task": "Make plans with family and friends"
+    },
+    {
+      "task": "Plan your dream kitchen"
+    },
+    {
+      "task": "Repair drywall with a repair kit"
+    },
+    {
+      "task": "Prep clothing for the next day"
+    },
+    {
+      "task": "Scan important documents and name them well so you can always find them on your computer"
+    },
+    {
+      "task": "Clean out your wallet – get rid of any unnecessary receipts"
+    },
+    {
+      "task": "Organize business receipts and expenses"
+    },
+    {
+      "task": "Do an inventory of your medical kit – add bandaids, Advil, or anything else your family uses"
+    },
+    {
+      "task": "Create an emergency kit"
+    },
+    {
+      "task": "Eliminate life clutter – unnecessary projects, negative people and experiences!"
+    },
+    {
+      "task": "Create a morning and/or evening routine"
+    },
+    {
+      "task": "Read something educational – now implement it"
+    },
+    {
+      "task": "Write a list of bad habits to break – now write an action plan for how you’ll do it"
+    },
+    {
+      "task": "Write a list of things you love about yourself and your life – now find a mirror and tell yourself! It might sound insane"
+    },
+    {
+      "task": "Cook a brand new meal"
+    },
+    {
+      "task": "Revisit old goals – make adjustments!"
+    },
+    {
+      "task": "Write a journal"
+    },
+    {
+      "task": "Clean out your purse or diaper bag"
+    },
+    {
+      "task": "Organize your nightstand"
+    },
+    {
+      "task": "Learn a new language"
+    },
+    {
+      "task": "Teach your kids your native language"
+    },
+    {
+      "task": "Plan a gathering at your home"
+    },
+    {
+      "task": "Draw or design something"
+    },
+    {
+      "task": "Make a playlist of songs that always get you pumped up"
+    },
+    {
+      "task": "Create a debt repayment plan"
+    },
+    {
+      "task": "Review your last month’s expenses"
+    },
+    {
+      "task": "Polish your jewelry"
+    },
+    {
+      "task": "Take a nap or go to bed when your kids do – sleep deprivation has a negative impact on productivity and performance, so listen to your body when it tells you to sleep!"
+    },
+    {
+      "task": "Take a shower – it can help you feel more alert and motivated to get things done"
+    },
+    {
+      "task": "Give yourself a spa treatment – eyebrows, mani, pedi, whatever gives you a confidence boost!"
+    },
+    {
+      "task": "Make a deposit your emergency fund – create one if you don’t have one yet!"
+    },
+    {
+      "task": "Create a weekly routine – stick to it!"
+    },
+    {
+      "task": "Clean your keyboard"
+    },
+    {
+      "task": "Clean your electronics and screens – I like WHOOSH! Screen Cleaner for my camera, tv, phone, and computer"
+    },
+    {
+      "task": "Make a list of things you need"
+    },
+    {
+      "task": "Learn to play a new song on your favourite instrument"
+    },
+    {
+      "task": "Trace your ancestry – alternatively, you can test each of your parents to get even more specific"
+    },
+    {
+      "task": "DIY a gift for a loved one or something for your home"
+    },
+    {
+      "task": "Sweep your entryway / patio"
+    },
+    {
+      "task": "Pull out weeds"
+    },
+    {
+      "task": "Wash your car"
+    },
+    {
+      "task": "Vacuum out your car"
+    },
+    {
+      "task": "Wash and vacuum out kids’ carseats"
+    },
+    {
+      "task": "Check levels and refill fluids in your car"
+    },
+    {
+      "task": "Check air pressure of your tires – refill them"
+    },
+    {
+      "task": "Preload your car with reusable bags for shopping – no more forgetting!"
+    },
+    {
+      "task": "Garden"
+    },
+    {
+      "task": "Wash outdoor furniture"
+    },
+    {
+      "task": "Wash your patio or deck"
+    },
+    {
+      "task": "Wash children’s toys"
+    },
+    {
+      "task": "Put away seasonal children’s toys"
+    },
+    {
+      "task": "Go for a walk – just 30 minutes a day provides countless health benefits!"
+    },
+    {
+      "task": "Take a stroll around your block and chat with your neighbours – it can help with stress management"
+    },
+    {
+      "task": "Play with your kids"
+    },
+    {
+      "task": "Mow the lawn"
+    },
+    {
+      "task": "Redecorate your front door"
+    },
+    {
+      "task": "Organize the shed"
+    },
+    {
+      "task": "Take out the trash"
+    },
+    {
+      "task": "Invite a friend over for coffee and wine on the patio – don’t neglect your social wellness"
+    },
+    {
+      "task": "Spend time with your pet"
+    },
+    {
+      "task": "Wash the outside of your windows – if it’s safe to do so"
+    },
+    {
+      "task": "Check out your roof – ensure no drains are plugged"
+    },
+    {
+      "task": "Clean the gutters"
+    },
+    {
+      "task": "Repot plants that have outgrown their current habitat"
+    },
+    {
+      "task": "Host a garage sale or participate in a community-wide sale"
+    },
+    {
+      "task": "Volunteer for your church or around your community"
+    },
+    {
+      "task": "Take photos – of yourself, kids, pets, home, etc."
+    },
+    {
+      "task": "Make a list of repairs or updates your home needs on the outside"
+    },
+    {
+      "task": "Turn off notifications – especially for social media!"
+    },
+    {
+      "task": "Create a to do list for the day / week / month ahead"
+    },
+    {
+      "task": "Pay your bills"
+    },
+    {
+      "task": "Set up automatic bill payments"
+    },
+    {
+      "task": "Unsubscribe from email lists you don’t read"
+    },
+    {
+      "task": "Create a list of goals for the year"
+    },
+    {
+      "task": "Write a 5 or 10 year plan"
+    },
+    {
+      "task": "Create a budget"
+    },
+    {
+      "task": "Re-evaluate your monthly / yearly non-negotiable expenses"
+    },
+    {
+      "task": "Create a meal plan"
+    },
+    {
+      "task": "Write a grocery list"
+    },
+    {
+      "task": "Delete apps that are wasting your time"
+    },
+    {
+      "task": "Delete apps you’ve never used / stopped using"
+    },
+    {
+      "task": "Delete duplicate media files, screenshots, and/or photos taken by mistake"
+    },
+    {
+      "task": "Close all of your open applications – swipe up on your iPhone to show everything that’s open"
+    },
+    {
+      "task": "Restart your phone"
+    },
+    {
+      "task": "Update your phone – it’ll remind you multiple times a day until you do, so just get it done!"
+    },
+    {
+      "task": "Create Reminders and/or update your iPhone calendar with important events"
+    },
+    {
+      "task": "Read an ebook for your business or a PDF you need to review  for class"
+    },
+    {
+      "task": "Create a Pinterest board for an upcoming project"
+    },
+    {
+      "task": "Unfollow people on social media"
+    },
+    {
+      "task": "Clean up your social media account – remove / archive old or irrelevant posts"
+    },
+    {
+      "task": "Mass delete old or irrelevant emails"
+    },
+    {
+      "task": "Delete old text messages / conversations you don’t need to refer to"
+    },
+    {
+      "task": "Review and empty your spam folder"
+    },
+    {
+      "task": "Backup your computer, phone, etc. – I use iCloud and external drives for my business and personal life"
+    },
+    {
+      "task": "Update your email signature"
+    },
+    {
+      "task": "Browse flyers with an app like Flipp – plan your shopping accordingly"
+    },
+    {
+      "task": "List items you want to sell on Facebook Marketplace or bidding groups"
+    },
+    {
+      "task": "Read a blog post about something you want to accomplish this week"
+    },
+    {
+      "task": "Write an outline for an email, blog, or social media post"
+    },
+    {
+      "task": "Update your LinkedIn profile"
+    },
+    {
+      "task": "Update your business’ social media accounts"
+    },
+    {
+      "task": "Respond to text messages – I’m the worst at this!"
+    },
+    {
+      "task": "Run updates for the apps you have downloaded"
+    },
+    {
+      "task": "Find and print personal photos you want to display in your home"
+    },
+    {
+      "task": "Update contacts – remove old and irrelevant ones"
+    },
+    {
+      "task": "Start a blog – it takes 15 minutes and costs as much as a Starbucks coffeee"
+    },
+    {
+      "task": "Start writing something – blog post, memoir, cookbook, epic love story, or otherwise!"
+    },
+    {
+      "task": "See if a title you want to read is available at the library – reserve it!"
+    },
+    {
+      "task": "Review passwords for your accounts and write them in a physical book to keep somewhere in your home"
+    },
+    {
+      "task": "Update your Amazon prime subscriptions – get rid of what you don’t need, add what you do"
+    },
+    {
+      "task": "Update your media kit or resume"
+    },
+    {
+      "task": "Research networking opportunities"
+    },
+    {
+      "task": "Edit photos for your blog or social media account"
+    },
+    {
+      "task": "Treat yourself to an online shopping trip – set a budget and get what you need"
+    },
+    {
+      "task": "Research conferences related to your profession and make plans to attend"
+    },
+    {
+      "task": "Learn keyboard and phone shortcuts"
+    },
+    {
+      "task": "Digitize business cards and contact information"
+    },
+    {
+      "task": "Sleep"
+    },
+    {
+      "task": "Read"
+    },
+    {
+      "task": "Have sex"
+    },
+    {
+      "task": "Clean"
+    },
+    {
+      "task": "Play Candy Crush/ Angry Birds/ game of the month"
+    },
+    {
+      "task": "Organize your fridge"
+    },
+    {
+      "task": "Give yourself a mani-pedi"
+    },
+    {
+      "task": "Watch an episode of your favorite show"
+    },
+    {
+      "task": "Bake something"
+    },
+    {
+      "task": "Take a bath"
+    },
+    {
+      "task": "Scrapbook"
+    },
+    {
+      "task": "Do a craft"
+    },
+    {
+      "task": "Take a walk"
+    },
+    {
+      "task": "Go shopping"
+    },
+    {
+      "task": "Practice your instrument"
+    },
+    {
+      "task": "Write"
+    },
+    {
+      "task": "Catch up on your emails"
+    },
+    {
+      "task": "Volunteer"
+    },
+    {
+      "task": "Go for a drive"
+    },
+    {
+      "task": "Read a magazine cover to cover"
+    },
+    {
+      "task": "Clean out your inbox"
+    },
+    {
+      "task": "Balance your checkbook"
+    },
+    {
+      "task": "Go to church"
+    },
+    {
+      "task": "Look through old photo albums"
+    },
+    {
+      "task": "Try a new recipe"
+    },
+    {
+      "task": "Take family pictures"
+    },
+    {
+      "task": "Go for a run"
+    },
+    {
+      "task": "Play a board game"
+    },
+    {
+      "task": "Rearrange the furniture in a room"
+    },
+    {
+      "task": "Take pictures of the beauty around you"
+    },
+    {
+      "task": "Teach your dog a new trick"
+    },
+    {
+      "task": "Call a friend you haven’t talked to in a while"
+    },
+    {
+      "task": "Write a letter to someone you care about"
+    },
+    {
+      "task": "Take a hike"
+    },
+    {
+      "task": "Go for a bike ride"
+    },
+    {
+      "task": "Learn a magic trick"
+    },
+    {
+      "task": "Perfect your elevator pitch"
+    },
+    {
+      "task": "Color"
+    },
+    {
+      "task": "Play in the leaves"
+    },
+    {
+      "task": "Listen to a whole album"
+    },
+    {
+      "task": "Try a new hair style"
+    },
+    {
+      "task": "Give yourself a facial"
+    },
+    {
+      "task": "Check something off your to-do list"
+    },
+    {
+      "task": "Make something from scratch"
+    },
+    {
+      "task": "Hang pictures"
+    },
+    {
+      "task": "Go out to eat"
+    },
+    {
+      "task": "Visit a friend"
+    },
+    {
+      "task": "Work out"
+    },
+    {
+      "task": "Gather items to donate to charity"
+    },
+    {
+      "task": "Read a magazine"
+    },
+    {
+      "task": "Continue with a course"
+    },
+    {
+      "task": "Reach out to a friend or family member"
+    },
+    {
+      "task": "Re-organize your calendar"
+    },
+    {
+      "task": "Update your apps, software, and operating system"
+    },
+    {
+      "task": "Learn to code huh"
+    },
+    {
+      "task": "Clean a room"
+    },
+    {
+      "task": "Do a work out"
+    },
+    {
+      "task": "Watch 5 TED talks"
+    },
+    {
+      "task": "Prepare a few meals ahead of time"
+    },
+    {
+      "task": "Learn a few words and phrases in a language"
+    },
+    {
+      "task": "Help a senior with grocery shopping"
+    },
+    {
+      "task": "Meditate"
+    },
+    {
+      "task": "Have a nap"
+    },
+    {
+      "task": "Do a few loads of laundry"
+    },
+    {
+      "task": "Write a hand written letter to a friend"
+    },
+    {
+      "task": "Pre address a bunch of birthday cards"
+    },
+    {
+      "task": "Read a story to a child"
+    },
+    {
+      "task": "Draw a picture"
+    },
+    {
+      "task": "Make a few playlists to listen to later"
+    },
+    {
+      "task": "Fold all the laundry"
+    },
+    {
+      "task": "Make the phone calls you’ve been avoiding"
+    },
+    {
+      "task": "Clean your cluttered house"
+    },
+    {
+      "task": "Pay bills or do other financial paperwork"
+    },
+    {
+      "task": "Tidy up your email inbox"
+    },
+    {
+      "task": "Declutter an entire room"
+    },
+    {
+      "task": "Complete two Pomodoro sessions of goal work"
+    },
+    {
+      "task": "Plan out your meals for the week ahead"
+    },
+    {
+      "task": "Work on a project you’ve been procrastinating on"
+    },
+    {
+      "task": "Take a walk outside and get some fresh air"
+    },
+    {
+      "task": "Try a new recipe"
+    },
+    {
+      "task": "Have a pamper night"
+    },
+    {
+      "task": "Write a short story"
+    },
+    {
+      "task": "Look through old photo albums"
+    },
+    {
+      "task": "Listen to an audiobook"
+    },
+    {
+      "task": "Do a puzzle"
+    },
+    {
+      "task": "Call or FaceTime someone who lives far away"
+    },
+    {
+      "task": "Play an instrument"
+    },
+    {
+      "task": "Have a picnic"
+    },
+    {
+      "task": "Create a bucket list"
+    },
+    {
+      "task": "Ideas for Your Spring Bucket List"
+    },
+    {
+      "task": "Free and Cheap Summer Activities"
+    },
+    {
+      "task": "Fall Bucket List Ideas"
+    },
+    {
+      "task": "Winter Bucket List Ideas to Help You Enjoy the Season More"
+    },
+    {
+      "task": "Create a playlist of your all-time favorite songs"
+    },
+    {
+      "task": "Have a dance party"
+    },
+    {
+      "task": "Bake some cookies, brownies, bread, or cupcakes"
+    },
+    {
+      "task": "Watch or listen to stand up comedy"
+    },
+    {
+      "task": "Have a movie night or movie marathon"
+    },
+    {
+      "task": "Take a creative class"
+    },
+    {
+      "task": "Play a board game"
+    },
+    {
+      "task": "Dream of or plan a vacation"
+    },
+    {
+      "task": "Build a fort"
+    },
+    {
+      "task": "Start reading a new book"
+    },
+    {
+      "task": "Listen to a podcast"
+    },
+    {
+      "task": "Color in a coloring book"
+    },
+    {
+      "task": "Work on your wishlist"
+    },
+    {
+      "task": "Polish your nails or toes"
+    },
+    {
+      "task": "Go for a walk"
+    },
+    {
+      "task": "Have a fun photo shoot"
+    },
+    {
+      "task": "Go for a bike ride"
+    },
+    {
+      "task": "Listen to your favorite album"
+    },
+    {
+      "task": "Try out different hairstyles"
+    },
+    {
+      "task": "Make a vision board"
+    },
+    {
+      "task": "Camp in the living room or backyard"
+    },
+    {
+      "task": "Have a Chopped competition"
+    },
+    {
+      "task": "Write in a journal"
+    },
+    {
+      "task": "Put together a time capsule"
+    },
+    {
+      "task": "Look at mansions on Zillow"
+    },
+    {
+      "task": "Watch old home movies"
+    },
+    {
+      "task": "Create an Instagram account for your pet"
+    },
+    {
+      "task": "Make a ‘bored jar’ using these ideas"
+    },
+    {
+      "task": "Try yoga or meditation"
+    },
+    {
+      "task": "Play with your pet"
+    },
+    {
+      "task": "Explore Pinterest"
+    },
+    {
+      "task": "Trace your ancestry"
+    },
+    {
+      "task": "Exchange massages with a friend or partner"
+    },
+    {
+      "task": "Start a book club"
+    },
+    {
+      "task": "Do a craft"
+    },
+    {
+      "task": "Watch YouTube"
+    },
+    {
+      "task": "Have a tea party"
+    },
+    {
+      "task": "Tour museums online"
+    },
+    {
+      "task": "Do an exercise video"
+    },
+    {
+      "task": "Declutter something"
+    },
+    {
+      "task": "Organize your photos"
+    },
+    {
+      "task": "Start getting organized for Christmas"
+    },
+    {
+      "task": "Organize your recipes"
+    },
+    {
+      "task": "Create meal plans"
+    },
+    {
+      "task": "Research something you’ve been wondering about"
+    },
+    {
+      "task": "Paint a room"
+    },
+    {
+      "task": "Start a 30 day challenge"
+    },
+    {
+      "task": "Rearrange furniture in a room"
+    },
+    {
+      "task": "Do a power hour clean"
+    },
+    {
+      "task": "Organize your pantry (and take inventory)"
+    },
+    {
+      "task": "Brainstorm ways to earn extra money"
+    },
+    {
+      "task": "Organize your closet"
+    },
+    {
+      "task": "Learn a new skill"
+    },
+    {
+      "task": "Plan a party"
+    },
+    {
+      "task": "Update your LinkedIn profile"
+    },
+    {
+      "task": "Catch up on your magazine reading"
+    },
+    {
+      "task": "Wash the windows"
+    },
+    {
+      "task": "Clean out and organize your purse"
+    },
+    {
+      "task": "Organize and declutter your kitchen"
+    },
+    {
+      "task": "Start a garden"
+    },
+    {
+      "task": "Catch up on your laundry"
+    },
+    {
+      "task": "Clean your rings"
+    },
+    {
+      "task": "Unsubscribe from annoying emails"
+    },
+    {
+      "task": "Change up your home decor"
+    },
+    {
+      "task": "Update your resume"
+    },
+    {
+      "task": "Clean out your fridge"
+    },
+    {
+      "task": "Make lists"
+    },
+    {
+      "task": "Research places to volunteer"
+    },
+    {
+      "task": "Take a nap"
+    },
+    {
+      "task": "Do a project you’ve been putting off"
+    },
+    {
+      "task": "Create an emergency kit"
+    },
+    {
+      "task": "Clean your makeup brushes"
+    },
+    {
+      "task": "Organize your phone"
+    },
+    {
+      "task": "Clean out your email inbox"
+    },
+    {
+      "task": "Make a 5 year or 10 year plan for your life"
+    },
+    {
+      "task": "Create a budget"
+    },
+    {
+      "task": "things you can do"
+    },
+    {
+      "task": "Watch or listen to a TED talk"
+    },
+    {
+      "task": "Declutter your social media"
+    },
+    {
+      "task": "Clean out your car"
+    },
+    {
+      "task": "Spring clean"
+    },
+    {
+      "task": "Read a novella"
+    },
+    {
+      "task": "Make Nigella's 'Easy Almond Cake' - half an hour to prepare, 50 minutes in the oven"
+    },
+    {
+      "task": "Do Linda Barker's Simple Yoga"
+    },
+    {
+      "task": "Play a game of Scrabble"
+    },
+    {
+      "task": "Learn some basic conversational pleasantries in six new languages"
+    },
+    {
+      "task": "Marry and divorce Britney Spears"
+    },
+    {
+      "task": "Go through the wardrobe and put everything you're never going to wear into a bag for Oxfam"
+    },
+    {
+      "task": "Tell your boyfriend or husband that you've got a surprise for him in exactly 90 minutes' time"
+    },
+    {
+      "task": "Write your Christmas thank you letters in advance"
+    },
+    {
+      "task": "Go on a bad date"
+    },
+    {
+      "task": "Take up golf, hit three balls, get bored and give it up"
+    },
+    {
+      "task": "Travel backwards and forwards from the Sun five times at the speed of light"
+    },
+    {
+      "task": "Paint yourself silver, stand still in Leicester Square and earn £47"
+    },
+    {
+      "task": "Get through to BT customer services"
+    },
+    {
+      "task": "Punch the whole cast of Red Dwarf "
+    },
+    {
+      "task": "Dig your own grave"
+    },
+    {
+      "task": "Visit a casino and learn to play dice"
+    },
+    {
+      "task": "Learn to paint, give massage and dance the tango"
+    },
+    {
+      "task": "Solve 136 Rubik's cubes (if you could do it at the same speed as world record holder Jess Bonde of Denmark)"
+    },
+    {
+      "task": "Phone your mother"
+    },
+    {
       "task": "Do Something You Say You Don’t Have Time To Do"
     }
-  ],
-  "101": [],
-  "102": [],
-  "103": [],
-  "104": [],
-  "105": [],
-  "106": [],
-  "107": [],
-  "108": [],
-  "109": [],
-  "110": [],
-  "111": [],
-  "112": [],
-  "113": [],
-  "114": [],
-  "115": [],
-  "116": [],
-  "117": [],
-  "118": [],
-  "119": [],
-  "120": []
+  ]
 }
