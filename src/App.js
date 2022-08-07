@@ -40,7 +40,6 @@ function App() {
 
   const [value, setValue] = useState('');
   const [showTasks, toggleShowTasks] = useState(false)
-  const [reloader, setReloader] = useState(false)
   const [flag, setFlag] = useState(true)
   const taskTime = require('./taski.json')
 
@@ -55,7 +54,6 @@ function App() {
       setValue(parseInt(value) - 1)
     }
     setFlag(!flag)
-    console.log(value)
   }
 
   return (
@@ -79,7 +77,7 @@ function App() {
                 <li>You can do nothing in 0 minutes</li>
               </ul>
             ) : (
-              <Random taskTime={taskTime} value={value} />
+              <Random taskTime={taskTime} value={parseInt(value)} />
             )}
           </div>
         </div>

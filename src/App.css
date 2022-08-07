@@ -2,6 +2,8 @@
   height: 100vh;
   width: 100vw;
   display: flex;
+  background-color: #f5eeee;
+  /* background-color: rgba(255, 255, 255, 0.75); */
   /* background: linear-gradient(to right, #a8ff78, #78ffd6); */
   /* background: #eacda3; */
   /* fallback for old browsers */
@@ -26,10 +28,18 @@
   height: 8vh;
   line-height: 8vh;
   text-align: center;
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 6vh;
   align-self: flex-start;
+  background-color: #cec9c7;
+  /* background-color: rgba(255, 255, 255, 0.75); */
 }
+
+/* .wrapper {
+  background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
+  background-size: cover;
+} */
 
 .numb {
   border-radius: 5px;
@@ -48,18 +58,6 @@
   background: none;
 }
 
-.itemList {
-  border-radius: 18px;
-  width: 30vw;
-  height: 70vh;
-  margin: auto;
-  margin-top: 50px;
-  justify-self: center;
-  align-self: center;
-  position: relative;
-  overflow-y: scroll;
-}
-
 ::placeholder {
   color: black;
   opacity: 1;
@@ -71,71 +69,30 @@
   color: transparent;
 }
 
-.footer {
-  font-size: 40px;
-  text-align: right;
-  width: 30vw;
-  position: absolute;
-  right: 1px;
-  bottom: 1px;
-}
 
-
-.mode {
-  background: none;
-  border-radius: 5px;
-  border: none;
-  height: 8vh;
-  width: 13vw;
-  line-height: 8vh;
-  margin-right: 1vh;
-  outline: none;
-  text-align: center;
-  font-size: 6vh;
+.itemList {
+  border-radius: 18px;
+  width: 35vw;
+  height: 70vh;
+  margin: auto;
+  margin-top: 50px;
+  justify-self: center;
+  align-self: center;
   position: relative;
-  text-align: left;
-  display: inline-block;
-  vertical-align: top;
+
+  /* backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3); */
 }
 
-ul {
-  position: absolute;
+li {
   list-style-type: none;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
-}
-
-li {
-  display: flex;
-  justify-content: space-between;
   border-bottom: 1px solid #ccc;
-}
-
-.tasklistcontent {
-  display: inline-block;
-  margin-right: 10px;
   font-size: 4vh;
   margin-top: 20px;
-}
-
-.itemList dt {
-  text-align: center;
-  font-weight: 500;
-  background-color: palegoldenrod;
-  position: sticky;
-  top: 0;
-  /* margin-right: 10px; */
-  font-size: 4vh;
-  /* margin-top: 20px; */
-}
-
-dd,
-li {
-  border-bottom: 1px solid #ccc;
-  margin-right: 10px;
-  font-size: 4vh;
-  margin-top: 20px;
-  margin-bottom: 4px;
+  padding-bottom: 8px;
 }
 
 /* CSS */
@@ -162,7 +119,7 @@ li {
   overflow: visible;
   padding: 2px 24px;
   position: relative;
-  top: -1vh;
+  top: -1.1vh;
   text-align: center;
   text-transform: none;
   transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
